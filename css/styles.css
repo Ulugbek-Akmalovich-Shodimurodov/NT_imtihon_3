@@ -199,3 +199,5 @@ body {
 .site_footer {
     background-color: rgba(40, 35, 35, 0.532)!important;
 }
+
+@media (max-width: 576px) {}
