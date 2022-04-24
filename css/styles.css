@@ -32,6 +32,13 @@ body {
     background-image: url(../img/bg_play.png) !important;
 }
 
+.cards_list1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+}
+
 .card1:first-child {
     margin-left: 100px;
 }
@@ -129,6 +136,7 @@ body {
 }
 
 .site_token {
+    z-index: 1000!important;
     margin-top: -65px;
     padding: 200px;
     background-image: url(../img/token.png);
@@ -136,11 +144,58 @@ body {
     background-repeat: no-repeat;
 }
 
-.text-light {
+.text-light1 {
     width: 500px;
 }
 
 .meta-img_tanga {
     width: 400px;
     height: 400px;
+}
+
+.site_team {
+    z-index: 1!important;
+    margin-top: -160px;
+    padding-bottom: 70px;
+    background-image: url(../img/team.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.row {
+    padding-bottom: 100px;
+}
+
+.team_img {
+    width: 220px!important;
+    height: 220px;
+}
+
+.team_img_l {
+    margin: 65px;
+}
+
+.team_btn {
+    margin-left: 550px;
+}
+
+.partners {
+    background-image: url(../img/partners.png);
+}
+
+.partner_list {
+    width: 1200px;
+}
+
+.partner {
+    margin: 20px;
+    width: 250px;
+    height: 80px;
+    background: rgba(255, 255, 255, 0.315);
+    border: 3px solid rgba(255, 255, 255, 0.871);
+    border-radius: 5px;
+}
+
+.site_footer {
+    background-color: rgba(40, 35, 35, 0.532)!important;
 }
