@@ -1,203 +1,226 @@
-body {
-    background: #000;
-}
-
-.site_header {
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.47) 25.63%, rgba(0, 0, 0, 0) 117.23%);
-}
-
-.navbar1 {
-    z-index: 10;
-    position: sticky !important;
-    top: 0;
-}
-
-.site_main_metastorm {
-    margin-top: -120px;
-    background-image: url(../img/header_bg_img.png)!important;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.47) 25.63%, rgba(0, 0, 0, 0) 117.23%);
-    backdrop-filter: blur(12px);
-    background-color: rgba(76, 61, 61, 0.592) !important;
-    background-size: cover !important;
-    background-repeat: no-repeat;
-    padding: 250px 100px;
-}
-
-.site_section_play {
-    display: flex!important;
-    justify-content: center!important;
-    width: 100%;
-    z-index: 100;
-    padding: 50px 0;
-    background-image: url(../img/bg_play.png) !important;
-}
-
-.cards_list1 {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    margin-left: 100px;
-}
-
-.card1:first-child {
-    margin-left: 100px;
-}
-
-.card1 {
-    margin-top: 50px;
-    margin-left: 0px;
-}
-
-.video_counter {
-    display: flex;
-    align-items: center;
-    width: 1000px;
-    height: 515px;
-    justify-content: center !important;
-    width: 500px h 500px !important;
-}
-
-.site_bg_ing_section {
-    margin-left: -50px;
-    background-image: url(../img/section3_.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.paragrif_ {
-    width: 600px;
-    height: 650px;
-    margin-right: 200px!important;
-}
-
-.site__nft-box {
-    background-image: url(../img/site_nft_box.png);
-}
-
-.nft_equipments {
-    background-image: url(../img/sectiom_bg.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 750px;
-}
-
-.carusel_img {
-    margin: 0 auto;
-}
-
-.btn_list {
-    margin-left: 50px;
-    width: 100%;
-}
-
-.carusel_btn {
-    margin-left: 100px!important;
-}
-
-.carousel {
-    margin-left: 230px;
-    text-align: center;
-    width: 900px;
-}
-
-.site_metaverse_vsmetastorm {
-    background-image: url(../img/metaverse.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-}
-
-.game_consept {
-    background-image: url(../img/site_game_consept.png);
-}
-
-.card_img_div {
-    width: 100%;
-    height: 12px;
-}
-
-.card_img {
-    padding: 10px 100px;
-    background: linear-gradient(180deg, #5B2B30 -90.77%, #6B3935 12.11%, #A25B48 97.02%);
-    border-radius: 5.49533px 5.49533px 0px 0px;
-}
-
-.card {
-    margin-top: 30px;
-    background: rgba(0, 0, 0, 0.29) !important;
-    border: 3px solid #515050;
-    box-sizing: border-box;
-    border-radius: 0px 0px 25px 25px;
-}
-
-.card_list {
-    text-transform: uppercase;
-    margin-top: 40px;
-}
-
-.site_token {
-    z-index: 1000!important;
-    margin-top: -65px;
-    padding: 200px;
-    background-image: url(../img/token.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.text-light1 {
-    width: 500px;
-}
-
-.meta-img_tanga {
-    width: 400px;
-    height: 400px;
-}
-
-.site_team {
-    z-index: 1!important;
-    margin-top: -160px;
-    padding-bottom: 70px;
-    background-image: url(../img/team.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.row {
-    padding-bottom: 100px;
-}
-
-.team_img {
-    width: 220px!important;
-    height: 220px;
-}
-
-.team_img_l {
-    margin: 65px;
-}
-
-.team_btn {
-    margin-left: 550px;
-}
-
-.partners {
-    background-image: url(../img/partners.png);
-}
-
-.partner_list {
-    width: 1200px;
-}
-
-.partner {
-    margin: 20px;
-    width: 250px;
-    height: 80px;
-    background: rgba(255, 255, 255, 0.315);
-    border: 3px solid rgba(255, 255, 255, 0.871);
-    border-radius: 5px;
-}
-
-.site_footer {
-    background-color: rgba(40, 35, 35, 0.532)!important;
-}
-
-@media (max-width: 576px) {}
+    body {
+        background: #000!important;
+    }
+    
+    .site_header {
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.47) 25.63%, rgba(0, 0, 0, 0) 117.23%);
+    }
+    
+    .navbar1 {
+        z-index: 10;
+        position: sticky !important;
+        top: 0;
+    }
+    
+    .site_main_metastorm {
+        margin-top: -120px;
+        background-image: url(../img/header_bg_img.png)!important;
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.47) 25.63%, rgba(0, 0, 0, 0) 117.23%);
+        backdrop-filter: blur(12px);
+        background-color: rgba(76, 61, 61, 0.592) !important;
+        background-size: cover !important;
+        background-repeat: no-repeat;
+        padding: 250px 100px;
+    }
+    
+    .site_section_play {
+        display: flex!important;
+        justify-content: center!important;
+        width: 100%;
+        z-index: 100;
+        padding: 50px 0;
+        background-image: url(../img/bg_play.png) !important;
+    }
+    
+    .cards_list1 {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-left: 100px;
+    }
+    
+    .card1:first-child {
+        margin-left: 100px;
+    }
+    
+    .card1 {
+        margin-top: 50px;
+        margin-left: 0px;
+    }
+    
+    .video_counter {
+        display: flex;
+        align-items: center;
+        width: 1000px;
+        height: 515px;
+        justify-content: center !important;
+        width: 500px h 500px !important;
+    }
+    
+    .site_bg_ing_section {
+        margin-left: -50px;
+        background-image: url(../img/section3_.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .paragrif_ {
+        width: 600px;
+        height: 650px;
+        margin-right: 200px!important;
+    }
+    
+    .site__nft-box {
+        background-image: url(../img/site_nft_box.png);
+    }
+    
+    .nft_equipments {
+        background-image: url(../img/sectiom_bg.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 750px;
+    }
+    
+    .carusel_img {
+        margin: 0 auto;
+    }
+    
+    .btn_list {
+        margin-left: 50px;
+        width: 100%;
+    }
+    
+    .carusel_btn {
+        margin-left: 100px!important;
+    }
+    
+    .carousel {
+        margin-left: 230px;
+        text-align: center;
+        width: 900px;
+    }
+    
+    .site_metaverse_vsmetastorm {
+        background-image: url(../img/metaverse.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+    }
+    
+    .game_consept {
+        background-image: url(../img/site_game_consept.png);
+    }
+    
+    .card_img_div {
+        width: 100%;
+        height: 12px;
+    }
+    
+    .card_img {
+        padding: 10px 100px;
+        background: linear-gradient(180deg, #5B2B30 -90.77%, #6B3935 12.11%, #A25B48 97.02%);
+        border-radius: 5.49533px 5.49533px 0px 0px;
+    }
+    
+    .card {
+        margin-top: 30px;
+        background: rgba(0, 0, 0, 0.29) !important;
+        border: 3px solid #515050;
+        box-sizing: border-box;
+        border-radius: 0px 0px 25px 25px;
+    }
+    
+    .card_list {
+        text-transform: uppercase;
+        margin-top: 40px;
+    }
+    
+    .site_token {
+        z-index: 1000!important;
+        margin-top: -65px;
+        padding: 200px;
+        background-image: url(../img/token.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    .text-light1 {
+        width: 500px;
+    }
+    
+    .meta-img_tanga {
+        width: 400px;
+        height: 400px;
+    }
+    
+    .site_team {
+        z-index: 1!important;
+        margin-top: -160px;
+        padding-bottom: 70px;
+        background-image: url(../img/team.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    .row {
+        padding-bottom: 100px;
+    }
+    
+    .team_img {
+        width: 220px!important;
+        height: 220px;
+    }
+    
+    .team_img_l {
+        margin: 65px;
+    }
+    
+    .team_btn {
+        margin-left: 550px;
+    }
+    
+    .partners {
+        background-image: url(../img/partners.png);
+    }
+    
+    .partner_list {
+        width: 1200px;
+    }
+    
+    .partner {
+        margin: 20px;
+        width: 250px;
+        height: 80px;
+        background: rgba(255, 255, 255, 0.315);
+        border: 3px solid rgba(255, 255, 255, 0.871);
+        border-radius: 5px;
+    }
+    
+    .site_footer {
+        background-color: rgba(40, 35, 35, 0.532)!important;
+    }
+    
+    .team_row {
+        display: flex;
+        margin-top: 150px!important;
+    }
+    
+    .team_img0 {
+        width: 300px!important;
+        height: 300px;
+    }
+    
+    .team_paragrif {
+        margin-top: 200px;
+        margin-left: 0;
+        margin-right: 0;
+        padding: 30px;
+        font-size: 10px!important;
+        width: 300px!important;
+        height: 300px!important;
+        background: rgba(43, 39, 39, 0.621);
+    }
+    
+    .margin_ {
+        margin-top: 150px!important;
+    }
