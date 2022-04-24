@@ -4,8 +4,6 @@ body {
 
 .site_header {
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.47) 25.63%, rgba(0, 0, 0, 0) 117.23%);
-    backdrop-filter: blur(12px);
-    /* width: 100vw; */
 }
 
 .navbar1 {
@@ -15,7 +13,6 @@ body {
 }
 
 .site_main_metastorm {
-    /* width: 100 vw; */
     margin-top: -120px;
     background-image: url(../img/header_bg_img.png)!important;
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.47) 25.63%, rgba(0, 0, 0, 0) 117.23%);
@@ -35,9 +32,13 @@ body {
     background-image: url(../img/bg_play.png) !important;
 }
 
+.card1:first-child {
+    margin-left: 100px;
+}
+
 .card1 {
     margin-top: 50px;
-    margin-left: 170px;
+    margin-left: 0px;
 }
 
 .video_counter {
